@@ -24,7 +24,7 @@ dan riwayat transaksi produk dengan fitur CRUD lengkap.
 - Transaksi Keluar masuknya Produk
 - Riwayat Transaksi Produk
 - API Laravel terhubung ke React frontend
-- Autentikasi dan Validasi Input
+- Autentikasi Laravel Sanctum dan Validasi Input
 
 **Teknologi:** Laravel, React.js, MySQL, Axios, AdminLTE
 
@@ -49,13 +49,15 @@ Aplikasi pencatatan keuangan sederhana untuk mencatat pemasukan dan pengeluaran 
 - CRUD Transaksi
 - Perhitungan saldo otomatis
 - Grafik pemasukan/pengeluaran per bulan
-- Autentikasi dan Validasi Input
+- Autentikasi Laravel Sanctum dan Validasi Input
 - API Laravel(Restful)
 
-**Teknologi:** Laravel, React.js, Chart.js, Axiox, AdminLTE
+**Teknologi:** Laravel, React.js, Chart.js, Axios, AdminLTE
+
 🔗 **Repository:**
-🗄️ Backend (Laravel): github.com/zafran-dev/laravel-stok-produk-backend
-💻 Frontend (React): github.com/zafran-dev/laravel-stok-produk-frontend
+
+- 🗄️ Backend (Laravel): [https://github.com/DejanJaya/backend-tabungan]
+- 💻 Frontend (React): [https://github.com/DejanJaya/frontend-tabungan]
 
 📸 **Screenshot:**
 ![Tabungan](images/portfolio-tabungan.png)
@@ -64,15 +66,15 @@ Aplikasi pencatatan keuangan sederhana untuk mencatat pemasukan dan pengeluaran 
 
 ## 🧰 Skills & Tools
 
-**Backend:** Laravel, REST API, MySQL
-**Frontend:** React.js, Bootstrap, CSS Axios
+**Backend:** PHP, Javascript, Codeigniter 3, Laravel, REST API, MySQL
+**Frontend:** React.js, Bootstrap, CSS, Jquery, Axios
 **Tools:** Git, VS Code, Composer, Postman, NPM
 
 ---
 
 ## 📫 Contact Me
 
-📍 GitHub: [@dejan-dev](https://github.com/DejanJaya)
+📍 GitHub: [@DejanJaya](https://github.com/DejanJaya)
 💼 LinkedIn: [linkedin.com/in/dejan-jaya-84128a169](#)
 📧 Email: [dejanjaya0@gmail.com](mailto:dejanjaya0@gmail.com)
 
