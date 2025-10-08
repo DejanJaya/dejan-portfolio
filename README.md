@@ -66,9 +66,9 @@ Aplikasi pencatatan keuangan sederhana untuk mencatat pemasukan dan pengeluaran 
 
 ## 🧰 Skills & Tools
 
-**Backend:** PHP, Javascript, Codeigniter 3, Laravel, REST API, MySQL
-**Frontend:** React.js, Bootstrap, CSS, Jquery, Axios
-**Tools:** Git, VS Code, Composer, Postman, NPM
+- **Backend:** PHP, Javascript, Codeigniter 3, Laravel, REST API, MySQL
+- **Frontend:** React.js, Bootstrap, CSS, Jquery, Axios
+- **Tools:** Git, VS Code, Composer, Postman, NPM
 
 ---
 
