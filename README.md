@@ -64,6 +64,34 @@ Aplikasi pencatatan keuangan sederhana untuk mencatat pemasukan dan pengeluaran 
 
 ---
 
+### 3. 🏘️ Aplikasi Pengaduan Warga ke RT
+
+**Deskripsi:**
+Aplikasi pengaduan warga berbasis web yang mempermudah warga dalam menyampaikan laporan atau aduan langsung kepada pihak RT secara real-time. Setiap warga dapat membuat aduan, dan pihak RT akan menerima notifikasi otomatis tanpa perlu refresh halaman.
+
+**Fitur Utama:**
+
+- Login & Register
+- Autentikasi menggunakan JWT (JSON Web Token)
+- CRUD Data User (Admin/RT)
+- Form Aduan untuk warga
+- Daftar Aduan di halaman RT (update real-time menggunakan Laravel Reverb & Laravel Echo)
+- Notifikasi otomatis ketika aduan baru dibuat
+- Tampilan menggunakan React.js 19 + AdminLTE
+
+**Teknologi:** Laravel 11, React.js 19, Laravel Reverb, Laravel Echo, Axios, SweetAlert2, AdminLTE
+
+🔗 **Repository:**
+
+- 🗄️ Backend (Laravel): [https://github.com/DejanJaya/backend-pengaduan]
+- 💻 Frontend (React): [https://github.com/DejanJaya/frontend-pengaduan]
+
+📸 **Screenshot:**
+![Pengaduan Warga](images/list-aduan-warga-ke-rt.png)
+![Notif di RT](images/list-aduan-warga.png)
+
+---
+
 ## 🧰 Skills & Tools
 
 - **Backend:** PHP, Javascript, Codeigniter 3, Laravel, REST API, MySQL
