@@ -2,7 +2,7 @@
 
 **Fullstack Developer | PHP Developer | Backend Developer**
 
-Saya adalah seorang Programmer dengan pengalaman 2 tahun dalam mengembangkan, memelihara, dan
+Saya adalah seorang Programmer dengan pengalaman 3 tahun dalam mengembangkan, memelihara, dan
 menambahkan fitur baru pada aplikasi perangkat lunak perusahaan. Terbukti mampu menjaga kualitas aplikasi
 yang telah digunakan secara efektif oleh pengguna. Berkomitmen untuk memberikan kontribusi positif dan
 mencapai tujuan tim.
