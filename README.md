@@ -92,11 +92,42 @@ Aplikasi pengaduan warga berbasis web yang mempermudah warga dalam menyampaikan 
 
 ---
 
+### 4. 🏥 Sistem Informasi Manajemen Klinik Rawat Jalan (SIMRS) Terintegrasi SATUSEHAT Kemenkes RI
+
+**Deskripsi:**
+Sistem Informasi Manajemen Klinik Rawat Jalan (SIMRS) dengan alur klinis terpadu (*Pasien Datang ➔ Diperiksa Dokter ➔ Ambil Obat & Kasir ➔ Pulang*) yang terintegrasi langsung secara *real-time* dengan standar rekam medis nasional Kementerian Kesehatan Republik Indonesia (**HL7 FHIR R4 & SATUSEHAT API**).
+
+**Fitur Utama:**
+
+- Alur Pasien Linear 4 Tahap (Pendaftaran, Antrean Dokter, E-Resep Obat, Farmasi & Kasir, Pulang)
+- Verifikasi NIK Pasien otomatis ke server SATUSEHAT Kemenkes RI (Lookup Nomor IHS Pasien)
+- Integrasi HL7 FHIR R4: `Patient`, `Practitioner`, `Encounter`, `Condition` (ICD-10), `Observation` (Tanda Vital), `MedicationRequest`, dan `MedicationDispense`
+- Dashboard Monitoring SATUSEHAT untuk memantau status autentikasi OAuth2 dan inspeksi payload request/response JSON
+- Fitur Cetak Dokumen PDF Resmi (Tiket Nomor Antrean, Resep Dokter Resmi ber-kop, Kuitansi Pembayaran & Faktur Kasir berstempel lunas)
+- Tampilan antarmuka modern & responsif menggunakan Vue 3 + Tabler UI (Bootstrap 5) dengan *collapsible sidebar* (mode layar penuh)
+- Autentikasi multi-role (Admin, Resepsionis, Dokter, Farmasi) dan dialog konfirmasi SweetAlert2
+- Arsitektur backend modern 100% menggunakan ECMAScript Modules (ESM)
+
+**Teknologi:** Node.js, Express.js (ES Modules), PostgreSQL, Vue 3, Vite, Tabler UI, Bootstrap 5, SweetAlert2, HL7 FHIR R4, SATUSEHAT API
+
+🔗 **Repository:**
+
+- 🗄️ Backend (Node.js/Express): [https://github.com/DejanJaya/backend-simrs-satusehat](https://github.com/DejanJaya/backend-simrs-satusehat)
+- 💻 Frontend (Vue.js): [https://github.com/DejanJaya/frontend-simrs-satusehat](https://github.com/DejanJaya/frontend-simrs-satusehat)
+
+📸 **Screenshot:**
+![Dashboard SIMRS](images/simrs-dashboard.png)
+
+
+---
+
 ## 🧰 Skills & Tools
 
-- **Backend:** PHP, Javascript, Codeigniter 3, Laravel, REST API, MySQL
-- **Frontend:** React.js, Bootstrap, CSS, Jquery, Axios
-- **Tools:** Git, VS Code, Composer, Postman, NPM
+- **Backend:** Node.js, Express.js, PHP, Javascript, Laravel, Codeigniter 3, REST API, PostgreSQL, MySQL
+- **Frontend:** Vue.js 3, React.js, Vite, Bootstrap, Tabler UI, CSS, Jquery, Axios, SweetAlert2
+- **Healthcare & Integration:** HL7 FHIR Release 4, SATUSEHAT Kemenkes RI API, OAuth2
+
+- **Tools:** Git, GitHub, VS Code, Composer, Postman, NPM
 
 ---
 
